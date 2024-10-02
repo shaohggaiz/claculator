@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator-mine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="keyes">
+      <div class="key">
+        <input type="text" id="display" readonly>
+      </div>
+      <div class="buttons">
+        <button onclick="getOperator('+')" class="Plau">+</button>
+      <button>O</button>
+      <button>%</button>
+      <button onclick="displayData('7')">7</button>
+      <button onclick="getOperator('-')" class="Plau">-</button>
+      <button onclick="displayData('8')">8</button>
+      <button onclick="displayData('9')">9</button>
+      <button onclick="displayData('4')">4</button>
+      <button onclick="getOperator('*')" class="Plau">*</button>
+      <button onclick="displayData('5')">5</button>
+      <button onclick="displayData('6')">6</button>
+      <button onclick="displayData('1')">1</button>
+      <button onclick="getOperator('/')" class="Plau">/</button>
+      <button onclick="displayData('2')">2</button>
+      <button onclick="displayData('3')">3</button>
+      <button onclick="displayData('.')">.</button>
+      <button id="clear" class="Plau" onclick="clearDisplay()">c</button>
+      <button onclick="displayData('0')">0</button>
+      <button id="equal" class="Plau" onclick="calCulaQual()">=</button>
+      </div>
+      
+    </div>
+  </div>
+  
+
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+#equal {
+    grid-column: 3/5;
+    color: aquamarine;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+.key {
+    padding-bottom: 10px;
+}
+.key input {
+    width: 100%;
+    padding: 20px;
+    border: 0;
+    outline: 0;
+    font-size: 2rem;
+    background-color: hsl(0, 0%, 80%);
+    color: rgb(144, 76, 76);
+    text-align: left;
+}
+.keyes {
+    background-color: gray;
+    width: 320px;
+    padding: 20px;
+    border-radius: 5px;
+}
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    background-color: hsl(0, 0%, 40%);
+    color: white;
+}
+#clear {
+    color: red;
+}
+.Plau {
+    color: aquamarine;
+}
